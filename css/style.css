@@ -1,0 +1,60 @@
+/*base*/
+html, body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px
+}
+table th, table td{ text-align:left; padding:2px 10px 2px 0}
+/*layout*/
+nav, section, aside {float: left; overflow: hidden;}
+nav, aside {width:20%}
+section{width:60%}
+h1{padding:10px; font-size:20px; border-bottom:1px solid #aaa}
+
+/*module*/
+.field {
+	margin-bottom: 20px;
+}
+.field-no {
+	width: 40px;
+	display: inline-block;
+	overflow: hidden;
+}
+.textlabel {
+	width: 200px;
+	display: inline-block;
+}
+.inline-help {
+	display: block;
+	margin-left: 45px;
+	font-size: 86%;
+}
+.optiongroup {
+	position: relative;
+	margin: -1em 0 0 277px
+}
+.optiongroup input {
+
+	margin: 0 3px 0 0;
+	position: relative;
+	top: 1px;
+}
+.optiongroup span {
+	margin: 0 10px 0 0
+}
+.optiongroup.vertical span {
+	display: block;
+	margin-bottom: 5px
+}
+.data-table {margin:10px 0 0 45px}
+.error{border:1px solid red; color:red}
+
+nav a:link, nav a:visited, nav a:active{color:#000; text-decoration:none;}
+nav a:hover{text-decoration:underline}
+nav li.active a{font-weight:bold}
+nav span, nav a{ padding:5px; display: block;}
+nav div{padding:10px}
+nav ul{margin-left:10px}
+
+section form{padding:10px; border:1px solid #ddd; border-top:0;}
+
+aside p{margin:10px}
